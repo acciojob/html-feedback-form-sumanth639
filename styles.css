@@ -1,2 +1,48 @@
 
 /* Your CSS Code here. */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  width: 300px;
+  margin: 30px auto;
+  padding: 18px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+input, button {
+  width: 100%;
+  margin-top: 6px;
+  padding: 7px;
+  box-sizing: border-box;
+}
+
+input[type="color"]{
+	padding:0
+}
+
+button {
+  margin-top: 16px;
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #000;
+}
